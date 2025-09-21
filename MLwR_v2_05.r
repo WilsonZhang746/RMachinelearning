@@ -1,4 +1,5 @@
 ##### Chapter 5: Classification using Decision Trees and Rules -------------------
+setwd("d:\\R-Machinelearning-Tutorial")
 
 #### Part 1: Decision Trees -------------------
 

@@ -3,6 +3,10 @@
 ##### Part 1: Neural Networks -------------------
 ## Example: Modeling the Strength of Concrete  ----
 
+setwd("d:\\R-Machinelearning-Tutorial")   #set working directory
+
+
+
 ## Step 2: Exploring and preparing the data ----
 # read in data and examine structure
 concrete <- read.csv("concrete.csv")
@@ -63,6 +67,18 @@ plot(concrete_model2)
 model_results2 <- compute(concrete_model2, concrete_test[1:8])
 predicted_strength2 <- model_results2$net.result
 cor(predicted_strength2, concrete_test$strength)
+
+
+
+
+
+
+
+
+
+
+
+
 
 ##### Part 2: Support Vector Machines -------------------
 ## Example: Optical Character Recognition ----
